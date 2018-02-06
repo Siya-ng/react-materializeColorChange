@@ -33,7 +33,7 @@ const Product = ( {productObj, addSubscriber, deleteProduct, changeColor, change
             <a className="waves-effect waves-light btn" onClick={(e) => this.changeColor(e)}>Change Color</a> */}
             <a className="waves-effect waves-light btn" onClick={(e) => changeTone(productObj.id)}>Change Tone</a>
             <a className="waves-effect waves-light btn" onClick={(e) => changeColor(productObj.id)}>Change Color</a>
-            <a className="waves-effect waves-light btn  pink lighten-3" onClick={(e) => deleteProduct(this.props.productObj.id)}>Delete</a>
+
           </div>
         </div>
       </div>
